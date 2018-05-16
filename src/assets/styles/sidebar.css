@@ -1,0 +1,163 @@
+main.toggled .sidebar-wrapper {
+    left: -270px;
+}
+
+.sidebar-wrapper {
+    z-index: 1050;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 270px;
+    height: 100%;
+    overflow-y: auto;
+    background: #f2f2f2;
+    transition: all 1s ease;
+    padding: 95px 25px 25px 25px;
+}
+
+.sidebar-wrapper .logo-small-screen {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .sidebar-wrapper .logo-small-screen {
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.verticl-menu {
+    margin-left: -25px;
+    margin-right: -25px;
+}
+
+.verticl-menu li {
+    background-color: #fff;
+}
+
+.subcollink li:before {
+    display: block;
+    width: 7px;
+    position: absolute;
+    z-index: 1;
+    left: 20px;
+    top: 17px;
+    border: 1px dotted;
+    border-width: 1px 0 0;
+}
+
+.verticl-menu li .item {
+    display: flex;
+    align-items: center;
+    padding: 6px 0;
+}
+
+.verticl-menu li .item-icon {
+    font-size: 18px;
+}
+
+.verticl-menu li .item-label {
+    margin: 0px 35px;
+    padding: 3px 0px;
+    display: block;
+    color: #585858;
+    font-size: 13px;
+}
+
+li>ul {
+    margin-left: 0;
+}
+
+.verticl-menu li>div {
+    border-bottom: 1px solid #eee;
+}
+
+.verticl-menu li>div>.item-label {
+    border-left: 1px dotted #79bad8;
+}
+
+.verticl-menu li .item-label .item-label:hover,
+.verticl-menu li .item-label .item-label[aria-expanded="true"],
+.verticl-menu li .item-label .item-label.activevermenu {
+    cursor: pointer;
+    color: #1187bc;
+}
+
+.verticl-menu li i {
+    width: 30px;
+}
+
+.main-item-label {
+    padding: 3px 25px;
+    border-left: 2px solid #f2f2f2;
+    border-right: 1.5px solid #f2f2f2;
+    color: #585858;
+    border-bottom: 1px solid #e5e5e5;
+    background: #f2f2f2;
+}
+
+.item-label-selected {
+    color: #1187bc !important;
+}
+
+.dashboard-label {
+    padding: 3px 25px;
+    border-left: 2px solid #f2f2f2;
+    border-right: 1.5px solid #f2f2f2;
+    color: #585858;
+    border-bottom: 1px solid #e5e5e5;
+    background: #f2f2f2;
+}
+
+.dashboard-label:hover {
+    cursor: pointer;
+    border-left: 2px solid #1187bc;
+    color: #1187bc;
+}
+
+.main-item-label-selected,
+.main-item-label:hover {
+    cursor: pointer;
+    /* background-color: #0c2329; */
+    color: #1187bc;
+}
+
+.main-item-label:hover {
+    border-left: 2px solid #1187bc;
+}
+
+.main-item-label-selected {
+    font-weight: bold;
+    background-color: white;
+    border-right: 1.5px solid #1187bc;
+    border-left: 2px solid white;
+}
+
+.main-item-label-expanded {
+    cursor: pointer;
+    /* background-color: #0c2329; */
+    color: #1187bc;
+}
+
+.main-item-label:before {
+    float: right !important;
+    content: "\f107";
+    font-family: FontAwesome;
+    font-weight: 900;
+    padding-top: 4px;
+    font-size: 18px;
+}
+
+@media (max-width: 800px) {
+    .verticl-menu {
+        margin-top: 20px;
+    }
+}
+
+.subcollink {
+    font-size: 13px;
+}
+
+.subcollink>div {
+    border: 0;
+}

@@ -1,0 +1,38 @@
+html,
+body,
+body>div,
+.App {
+    height: auto;
+    background-color: #fff;
+}
+
+ul {
+    list-style: none;
+    margin: auto;
+}
+
+.body-wrapper {
+    display: flex;
+}
+
+main.toggled .page-content-wrapper {
+    margin-left: 17px;
+}
+
+.page-content-wrapper {
+    margin-left: 290px;
+    transition: all 1s ease;
+    padding: 25px 0;
+}
+
+.page-content-wrapper .page-content {
+    margin-top: 40px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.btn {
+    border-radius: 4px;
+}

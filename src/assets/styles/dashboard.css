@@ -1,0 +1,27 @@
+.dashboard-content {
+    margin-top: 20px;
+}
+
+.upload-file-dropzone {
+    height: 400px;
+    width: 100%;
+    border: 2px dashed #888;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toaster {
+    height: 400px;
+    width: 80%;
+    margin: 10%;
+}
+
+.share-link {
+    display: flex;
+}
+
+.share-link .btn {
+    margin-left: 15px;
+}
