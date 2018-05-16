@@ -13740,10 +13740,6 @@ th .lbl:only-child {
     margin-bottom: 11px
 }
 
-.login-layout {
-    background-color: #1D2024
-}
-
 .login-layout .main-container:before {
     display: none
 }
@@ -13762,8 +13758,8 @@ th .lbl:only-child {
     z-index: -5;
     border-bottom: none;
     box-shadow: none;
-    padding: 6px;
-    background-color: #394557;
+    padding: 1px;
+    background-color: #5ea8dd;
     -moz-transform: scale(0, 1) translate(-150px);
     -webkit-transform: scale(0, 1) translate(-150px);
     -o-transform: scale(0, 1) translate(-150px);
